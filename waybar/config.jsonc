@@ -24,8 +24,8 @@
         "tooltip": false
     },    
     "custom/split": {
-      "format": "|",
-      "tooltip": false
+        "format": "|",
+        "tooltip": false
     },
 
 
@@ -94,12 +94,12 @@
         ]
     },
     "cpu": {
-        "format": "CPU:{usage}%",
+        "format": "CPU: {usage}%",
         "tooltip": false,
         "interval": 2
     },
     "memory":{
-        "format": "RAM:{}%",
+        "format": "RAM: {}%",
         "tooltip": false,
         "interval": 2
     },
@@ -112,7 +112,9 @@
             "custom/split",
             "network",
             "custom/swaync",
-            "custom/closebracket"
+  
+            "custom/closebracket",
+            "custom/power"
         ]
     },
     "clock": {
@@ -130,9 +132,13 @@
         "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
     },
     "custom/swaync": {
-      "format": "",
-      "exec": "swaync-client -swb",
-      "on-click": "swaync-client --toggle-panel",
-      "interval": 0
+        "format": "",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client --toggle-panel",
+        "interval": 0
     },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout"
+    }
 }]

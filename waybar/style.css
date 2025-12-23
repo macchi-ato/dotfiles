@@ -52,7 +52,7 @@ window#waybar {
 }
 
 
-/* right module */
+/* left module */
 
 #workspaces button {
   min-width: 0px;
@@ -96,11 +96,13 @@ window#waybar {
 #memory,
 #clock,
 #network,
-#custom-swaync {
+#custom-swaync,
+#custom-power {
   padding: 0 10px;
 }
 
 #network:hover,
-#custom-swaync:hover {
+#custom-swaync:hover,
+#custom-power:hover {
   color: @color3;
 }
