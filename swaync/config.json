@@ -40,7 +40,7 @@
     },
     "widgets": [
         "buttons-grid",
-	"mpris",
+	    "mpris",
         "volume",
         "dnd",
         "title",

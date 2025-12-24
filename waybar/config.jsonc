@@ -2,6 +2,7 @@
     "height": 40,
     "spacing": 5, 
 
+
     "modules-left": [
         "group/workspaces",
 	    "mpris"
@@ -54,6 +55,7 @@
 	
     },
 
+
     "mpris": {
         "format": "[   {status_icon} | {dynamic} ]",
         "interval": 1,
@@ -104,6 +106,7 @@
         "interval": 2
     },
 
+    
     "group/system": {
         "orientation": "horizontal",
         "modules": [
