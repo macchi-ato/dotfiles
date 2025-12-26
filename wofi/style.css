@@ -21,7 +21,7 @@ window {
    padding: 10px;
    color: @accent;
    background-color: @bg;
-   border: 2px solid @accent;
+   border: 1px solid @accent;
    border-radius: 4px;
 }
 
@@ -41,7 +41,7 @@ window {
 
 #entry:selected {
    background-color: @bg;
-   border: 2px solid @accent2;
+   border: 1px solid @accent2;
    border-radius: 4px;
 }
 

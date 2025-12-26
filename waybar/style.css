@@ -34,21 +34,21 @@ window#waybar {
   margin: 10px 0 0 10px;
   padding: 0 0 0 10px;
   background-color: @background;
-  border: 2px solid @focused;
+  border: 1px solid @focused;
 }
 
 .modules-center {
   margin: 10px 0 0 0;
   padding: 0 10px 0 10px;
   background-color: @background;
-  border: 2px solid @focused;
+  border: 1px solid @focused;
 }
 
 .modules-right {
   margin: 10px 10px 0 0;
   padding: 0 10px 0 10px;
   background-color: @background;
-  border: 2px solid @focused;
+  border: 1px solid @focused;
 }
 
 
