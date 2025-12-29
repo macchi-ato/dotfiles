@@ -37,12 +37,10 @@ window {
 
 button {
     font-size: 20px;
-    background-color: @background;
+    background-color: transparent;
     border: 1px solid @button-border;
     border-radius: 4px;
     margin: 4px;
-    min-width: 80px;
-    min-height: 40px;
 }
 
 button:hover {

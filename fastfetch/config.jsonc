@@ -1,12 +1,13 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "source": "/home/macchi/Pictures/bored.jpg",
+    "source": "/home/macchi/Pictures/shanks.jpg",
     "type": "kitty",
-    "height": 12,
+    "height": 10,
+    "width": 24,
     "padding": {
-      "top": 2,
-      "left":3
+      "top": 3,
+      "left": 4
     }
   },
   "modules": [
@@ -14,7 +15,7 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[35mM A C C H I\u001b[0m\n"
+      "format": "\u001b[33mM A C C H I\u001b[0m\n"
     },
     {
       "type": "os",

@@ -9,7 +9,6 @@
 @define-color color3 #78997A;
 @define-color urgent #B05A5A;
 
-
 * {
   font-family: "Iosevka Nerd Font";
   font-size: 15px;
@@ -19,7 +18,6 @@ window#waybar {
   background-color: transparent;
   border-bottom: 0;
   color: @text;
-  transition: background-color 0.5s;
 }
 
 #custom-openbracket,
@@ -31,7 +29,7 @@ window#waybar {
 /* configuring the modules */
 
 .modules-left {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 12px;
   padding: 0 0 0 10px;
   background-color: @background;
   border: 1px solid @focused;
@@ -45,7 +43,7 @@ window#waybar {
 }
 
 .modules-right {
-  margin: 10px 10px 0 0;
+  margin: 10px 12px 0 0;
   padding: 0 10px 0 10px;
   background-color: @background;
   border: 1px solid @focused;
