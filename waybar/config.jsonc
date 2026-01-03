@@ -4,123 +4,62 @@
 
 
     "modules-left": [
-        "group/workspaces",
-	    "mpris"
+        "group/workspaces"
     ],
     "modules-center": [
         "group/windows"
     ],
     "modules-right": [
-        "group/cpuram",
         "group/system"
     ],
-
-
-    "custom/openbracket": {
-        "format": "[",
-        "tooltip": false
-    },
-    "custom/closebracket": {
-        "format": "]",
-        "tooltip": false
-    },    
-    "custom/split": {
-        "format": "|",
-        "tooltip": false
-    },
 
 
     "group/workspaces":{
         "orientation": "horizontal",
         "modules":[
-            "custom/openbracket",
-            "hyprland/workspaces",
-            "custom/closebracket"
+            "hyprland/workspaces"
         ]
     },
     "hyprland/workspaces": {
-	    "disable-scroll": true,
-        "all-outputs": false,
-	    "persistent-workspaces": {
-	        "*": [1, 2, 3, 4, 5]
-	    },
-       	"format": "{icon}",
+	    "format": "{icon}",
         "format-icons": {
             "1": "1",
             "2": "2",
             "3": "3",
             "4": "4",
             "default": "•"
-        }
-	
-    },
-
-
-    "mpris": {
-        "format": "[   {status_icon} | {dynamic} ]",
-        "interval": 1,
-        "dynamic-len": 40,
-        "status-icons": {
-            "playing": "▶",
-            "paused": "⏸",
-            "stopped": ""
         },
-        "dynamic-order": ["artist"]
+	    "persistent-workspaces": {
+	        "*": [1, 2, 3, 4, 5]
+	    }
     },
 
 
     "group/windows": {
         "orientation":"horizontal",
         "modules":[
-            "custom/openbracket",
-            "hyprland/window",
-            "custom/closebracket"
+            "hyprland/window"
         ]
     },
     "hyprland/window": {
         "format": "{title}", 
-        "max-length": 20,
+        "max-length": 24,
         "min-length": 0,
         "all-outputs": true
-    },
-
-
-    "group/cpuram": {
-        "orientation": "horizontal",
-        "modules": [
-            "custom/openbracket",
-            "cpu",
-            "custom/split",
-            "memory",
-            "custom/closebracket"
-        ]
-    },
-    "cpu": {
-        "format": "CPU: {usage}%",
-        "tooltip": false,
-        "interval": 2
-    },
-    "memory":{
-        "format": "RAM: {}%",
-        "tooltip": false,
-        "interval": 2
     },
 
     
     "group/system": {
         "orientation": "horizontal",
         "modules": [
-            "custom/openbracket",
             "clock",
-            "custom/split",
             "network",
             "custom/swaync",
-            "custom/closebracket",
             "custom/power"
         ]
     },
     "clock": {
-        "format": "{:%I:%M}",
+        "format": "{:%I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "onclick" : "kalender"
     },

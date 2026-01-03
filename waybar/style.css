@@ -1,5 +1,4 @@
 @define-color background #2C2A24;
-@define-color second-background #3A372F;
 @define-color text #DDD5C4;
 @define-color borders #A0907A;
 @define-color focused #D08B57;
@@ -11,7 +10,7 @@
 
 * {
   font-family: "Iosevka Nerd Font";
-  font-size: 15px;
+  font-size: 14px;
 }
 
 window#waybar {
@@ -20,33 +19,31 @@ window#waybar {
   color: @text;
 }
 
-#custom-openbracket,
-#custom-closebracket {
-  margin: 0 5px;
-}
-
 
 /* configuring the modules */
 
 .modules-left {
   margin: 10px 0 0 12px;
-  padding: 0 0 0 10px;
-  background-color: @background;
+  padding: 0 10px;
+  background: @background;
   border: 1px solid @focused;
+  border-radius: 4px;
 }
 
 .modules-center {
   margin: 10px 0 0 0;
-  padding: 0 10px 0 10px;
-  background-color: @background;
+  padding: 0 10px;
+  background: @background;
   border: 1px solid @focused;
+  border-radius: 4px;
 }
 
 .modules-right {
   margin: 10px 12px 0 0;
-  padding: 0 10px 0 10px;
-  background-color: @background;
+  padding: 0 10px;
+  background: @background;
   border: 1px solid @focused;
+  border-radius: 4px;
 }
 
 
@@ -55,7 +52,6 @@ window#waybar {
 #workspaces button {
   min-width: 0px;
   padding: 0 10px;
-  background-color: transparent;
   color: @text;
   border-radius: 0;
 }
@@ -69,17 +65,6 @@ window#waybar {
   background-color: @urgent;
 }
 
-#mpris {
-  padding: 0 15px 0 10px;
-  background-color: @background;
-  color: @text;
-}
-
-#mpris.playing {
-  background-color: @color3;
-  color: @background;
-}
-
 
 /* center module  */
 
@@ -90,8 +75,6 @@ window#waybar {
 
 /* right module */
 
-#cpu,
-#memory,
 #clock,
 #network,
 #custom-swaync,
