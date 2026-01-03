@@ -24,9 +24,9 @@ window#waybar {
 
 .modules-left {
   margin: 10px 0 0 12px;
-  padding: 0 10px;
+  padding: 0;
   background: @background;
-  border: 1px solid @focused;
+  border: 2px solid @focused;
   border-radius: 4px;
 }
 
@@ -34,7 +34,7 @@ window#waybar {
   margin: 10px 0 0 0;
   padding: 0 10px;
   background: @background;
-  border: 1px solid @focused;
+  border: 2px solid @focused;
   border-radius: 4px;
 }
 
@@ -42,7 +42,7 @@ window#waybar {
   margin: 10px 12px 0 0;
   padding: 0 10px;
   background: @background;
-  border: 1px solid @focused;
+  border: 2px solid @focused;
   border-radius: 4px;
 }
 
