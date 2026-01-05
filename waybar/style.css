@@ -19,7 +19,7 @@ window#waybar {
 /* configuring the modules */
 
 .modules-left {
-  margin: 10px 0 0 12px;
+  margin: 8px 0 0 8px;
   padding: 0;
   background: @background;
   border: 2px solid @borders;
@@ -27,7 +27,7 @@ window#waybar {
 }
 
 .modules-center {
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
   padding: 0 10px;
   background: @background;
   border: 2px solid @borders;
@@ -35,7 +35,7 @@ window#waybar {
 }
 
 .modules-right {
-  margin: 10px 12px 0 0;
+  margin: 8px 8px 0 0;
   padding: 0 10px;
   background: @background;
   border: 2px solid @borders;
