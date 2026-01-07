@@ -1,7 +1,6 @@
 @define-color background #2C2A24;
 @define-color text #DDD5C4;
-@define-color borders #E6474C;
-@define-color highlight #78997A;
+@define-color highlight #E6474C;
 @define-color urgent #B05A5A;
 
 * {
@@ -22,7 +21,6 @@ window#waybar {
   margin: 8px 0 0 8px;
   padding: 0;
   background: @background;
-  border: 2px solid @borders;
   border-radius: 4px;
 }
 
@@ -30,7 +28,6 @@ window#waybar {
   margin: 8px 0 0 0;
   padding: 0 10px;
   background: @background;
-  border: 2px solid @borders;
   border-radius: 4px;
 }
 
@@ -38,7 +35,6 @@ window#waybar {
   margin: 8px 8px 0 0;
   padding: 0 10px;
   background: @background;
-  border: 2px solid @borders;
   border-radius: 4px;
 }
 
@@ -54,7 +50,7 @@ window#waybar {
 
 #workspaces button.active {
   background-color: @highlight;
-  color: @background;
+  border-radius: 4px;
 }
 
 #workspaces button.urgent {
