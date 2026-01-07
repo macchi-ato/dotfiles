@@ -60,14 +60,13 @@ window#waybar {
 
 /* center module  */
 
-#window {
+#clock {
   padding: 0 10px;
 }
 
 
 /* right module */
 
-#clock,
 #network,
 #custom-swaync,
 #custom-power {
