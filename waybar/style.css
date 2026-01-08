@@ -21,6 +21,7 @@ window#waybar {
   margin: 8px 0 0 8px;
   padding: 0;
   background: @background;
+  border: 1px solid @highlight;
   border-radius: 4px;
 }
 
@@ -28,6 +29,7 @@ window#waybar {
   margin: 8px 0 0 0;
   padding: 0 10px;
   background: @background;
+  border: 1px solid @highlight;
   border-radius: 4px;
 }
 
@@ -35,6 +37,7 @@ window#waybar {
   margin: 8px 8px 0 0;
   padding: 0 10px;
   background: @background;
+  border: 1px solid @highlight;
   border-radius: 4px;
 }
 
@@ -50,7 +53,6 @@ window#waybar {
 
 #workspaces button.active {
   background-color: @highlight;
-  border-radius: 4px;
 }
 
 #workspaces button.urgent {
