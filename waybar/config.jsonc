@@ -47,7 +47,7 @@
     // Right module
 
     "clock#date": {
-        "format": "{:%a, %b %d -}",
+        "format": "{:%a, %b %d - }",
         "tooltip-format": "<big>{calendar}</big>"
     },
     
