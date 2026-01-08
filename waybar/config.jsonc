@@ -70,7 +70,7 @@
         "format-wifi": "{icon}",
         "format-ethernet": "󰈀 LAN",
         "format-disconnected": "󰖪",
-        "tooltip-format": "{ipaddr}\n{ssid} ({signalStrength}%)",
+        "tooltip": false,
         "on-click": "kitty -e nmtui",
         "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
     },
@@ -78,10 +78,12 @@
         "format": "",
         "exec": "swaync-client -swb",
         "on-click": "swaync-client --toggle-panel",
+        "tooltip": false,
         "interval": 0
     },
     "custom/power": {
         "format": "⏻",
-        "on-click": "wlogout"
+        "on-click": "wlogout",
+        "tooltip": false
     }
 }]
