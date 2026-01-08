@@ -65,6 +65,10 @@ window#waybar {
 
 /* Right module */
 
+#custom-split {
+  margin: 0 10px;
+}
+
 #network,
 #custom-swaync,
 #custom-power {
