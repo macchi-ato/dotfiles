@@ -1,7 +1,6 @@
-@define-color background #2C2A24;
-@define-color text #DDD5C4;
+@define-color bg #2C2A24;
+@define-color text #FAEDCD;
 @define-color highlight #E6474C;
-@define-color urgent #B05A5A;
 
 * {
   font-family: "Iosevka Nerd Font";
@@ -20,24 +19,24 @@ window#waybar {
 .modules-left {
   margin: 8px 0 0 8px;
   padding: 0;
-  background: @background;
-  border: 1px solid @highlight;
+  background: @bg;
+  border: 2px solid @bg;
   border-radius: 4px;
 }
 
 .modules-center {
   margin: 8px 0 0 0;
   padding: 0 10px;
-  background: @background;
-  border: 1px solid @highlight;
+  background: @bg;
+  border: 2px solid @bg;
   border-radius: 4px;
 }
 
 .modules-right {
   margin: 8px 8px 0 0;
   padding: 0 10px;
-  background: @background;
-  border: 1px solid @highlight;
+  background: @bg;
+  border: 2px solid @bg;
   border-radius: 4px;
 }
 
@@ -48,15 +47,16 @@ window#waybar {
   min-width: 0px;
   padding: 0 10px;
   color: @text;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 #workspaces button.active {
-  background-color: @highlight;
+  background-color: @text;
+  color: @bg;
 }
 
 #workspaces button.urgent {
-  background-color: @urgent;
+  background-color: @highlight;
 }
 
 
