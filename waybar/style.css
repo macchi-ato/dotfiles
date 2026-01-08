@@ -72,7 +72,11 @@ window#waybar {
 #network,
 #custom-swaync,
 #custom-power {
-  padding: 0 10px;
+  padding-right: 5px;
+}
+
+#custom-swaync {
+  margin: 0 15px;
 }
 
 #network:hover,
