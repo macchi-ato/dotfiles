@@ -17,7 +17,7 @@ window#waybar {
 /* Module containers */
 
 .modules-left {
-  margin: 8px 0 0 8px;
+  margin: 12px 0 0 12px;
   padding: 0;
   background: @bg;
   border: 2px solid @bg;
@@ -26,7 +26,7 @@ window#waybar {
 }
 
 .modules-center {
-  margin: 8px 0 0 0;
+  margin: 12px 0 0 0;
   padding: 0 10px;
   background: @bg;
   border: 2px solid @bg;
@@ -34,7 +34,7 @@ window#waybar {
 }
 
 .modules-right {
-  margin: 8px 8px 0 0;
+  margin: 12px 12px 0 0;
   padding: 0 10px;
   background: @bg;
   border: 2px solid @bg;
