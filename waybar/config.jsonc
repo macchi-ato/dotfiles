@@ -11,7 +11,6 @@
     ],
     "modules-right": [
         "clock#date",
-        "custom/split",
         "group/system"
     ],
 

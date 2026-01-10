@@ -35,10 +35,6 @@ window#waybar {
 
 .modules-right {
   margin: 12px 12px 0 0;
-  padding: 0 10px;
-  background: @bg;
-  border: 2px solid @bg;
-  border-radius: 4px;
 }
 
 
@@ -73,18 +69,29 @@ window#waybar {
 
 /* Right module */
 
-#custom-split {
-  margin: 0 10px;
+#clock.date {
+  padding: 0 10px;
+  background-color: @bg;
+  border: 2px solid @bg;
+  border-radius: 4px;
+}
+
+#system {
+  padding: 0 10px;
+  background-color: @bg;
+  border: 2px solid @bg;
+  border-radius: 4px;
 }
 
 #network,
 #custom-swaync,
 #custom-power {
+  min-width: 12px;
   padding-right: 5px;
 }
 
 #custom-swaync {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 #network:hover,
