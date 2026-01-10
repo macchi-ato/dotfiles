@@ -86,6 +86,7 @@ window#waybar {
 #network,
 #custom-swaync,
 #custom-power {
+  min-height: 12px;
   min-width: 12px;
   padding-right: 5px;
 }
