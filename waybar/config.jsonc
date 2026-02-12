@@ -1,7 +1,10 @@
 [{
     "output": "DP-4",
-    "height": 42,
-    "spacing": 4, 
+    // "height": 36,
+    "spacing": 4,
+    "margin-top": 8,
+    "margin-left": 8,
+    "margin-right": 8,
 
     "modules-left": [
         "group/workspaces"
@@ -11,7 +14,9 @@
     ],
     "modules-right": [
         "clock#date",
-        "group/system"
+        "network",
+        "custom/swaync",
+        "custom/power"
     ],
 
     "custom/split": {
@@ -56,14 +61,14 @@
         "tooltip-format": "<big>{calendar}</big>"
     },
     
-    "group/system": {
-        "orientation": "horizontal",
-        "modules": [
-            "network",
-            "custom/swaync",
-            "custom/power"
-        ]
-    },
+    // "group/system": {
+    //     "orientation": "horizontal",
+    //     "modules": [
+    //         "network",
+    //         "custom/swaync"
+    //     ]
+    // },
+    
     "network": {
         "interface": "wlp9s0",
         "format-wifi": "{icon}",
@@ -73,6 +78,7 @@
         "on-click": "kitty -e nmtui",
         "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
     },
+
     "custom/swaync": {
         "format": "",
         "exec": "swaync-client -swb",
@@ -80,6 +86,7 @@
         "tooltip": false,
         "interval": 0
     },
+    
     "custom/power": {
         "format": "⏻",
         "on-click": "wlogout",
