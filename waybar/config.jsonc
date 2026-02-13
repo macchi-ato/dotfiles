@@ -13,7 +13,6 @@
         "clock"
     ],
     "modules-right": [
-        "clock#date",
         "network",
         "custom/swaync",
         "custom/power"
@@ -51,15 +50,15 @@
 
     "clock": {
         "format": "{:%I:%M %p}",
-        "tooltip-format": "Boo! :p" 
+        "tooltip-format": "{:%a, %b %d}" 
     },
 
     // Right module
 
-    "clock#date": {
-        "format": "{:%a, %b %d}",
-        "tooltip-format": "<big>{calendar}</big>"
-    },
+    // "clock#date": {
+    //     "format": "{:%a, %b %d}",
+    //     "tooltip-format": "<big>{calendar}</big>"
+    // },
     
     // "group/system": {
     //     "orientation": "horizontal",
