@@ -1,12 +1,14 @@
 @define-color bg #2C2A24;
 @define-color second-bg #3f3C33;
-@define-color empty-btn #6c6550;
-@define-color text #FAEDCD;
-@define-color highlight #E6474C;
+@define-color primary #E6474C;
+@define-color secondary #ff7f5c;
+@define-color text #ffe6b7;
+@define-color ws-btn #6c6550;
+
 
 * {
   font-family: "Iosevka Nerd Font";
-  font-size: 15px;
+  font-size: 14px;
 }
 
 window#waybar {
@@ -44,20 +46,21 @@ window#waybar {
   font-weight: 600;
   border-radius: 0;
   color: @text;
-  background: @empty-btn;
+  background: @ws-btn;
 }
 
 #workspaces button.empty {
+  color: @text;
   background-color: @second-bg;
 }
 
 #workspaces button.active {
-  background-color: @text;
   color: @bg;
+  background-color: @text;
 }
 
 #workspaces button.urgent {
-  background-color: @highlight;
+  background-color: @primary;
 }
 
 
@@ -71,7 +74,7 @@ window#waybar {
 
 #clock.date {
   padding: 0 8px;
-  color: rgb(255, 223, 164);
+  color: @text;
   background-color: @second-bg;
 }
 
@@ -80,11 +83,12 @@ window#waybar {
 #custom-power {
   min-height: 28px;
   min-width: 28px;
-  padding-right: 5px;
-  color: rgb(255, 127, 92);
+  font-size: 16px;
+  padding-right: 6px;
+  color: @secondary;
   background-color: @second-bg;
 }
 
 #custom-power {
-  color: @highlight;
+  color: @primary;
 }
