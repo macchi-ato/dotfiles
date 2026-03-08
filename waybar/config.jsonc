@@ -1,45 +1,40 @@
-[{
+{
+    "reload_style_on_change": true,
     "output": "DP-4",
-    // "height": 36,
-    "spacing": 4,
-    "margin-top": 8,
-    "margin-left": 8,
-    "margin-right": 8,
+    "spacing": 0,
+    // "margin-top": 8,
+    // "margin-left": 8,
+    // "margin-right": 8,
 
     "modules-left": [
-        "group/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "clock"
     ],
     "modules-right": [
         "network",
-        "custom/swaync",
+        "pulseaudio",
         "custom/power"
     ],
 
-    "custom/split": {
-      "format": "-",
-      "tooltip": false
-    },
-
     // Left module
 
-    "group/workspaces":{
-        "orientation": "horizontal",
-        "modules":[
-            "hyprland/workspaces"
-        ]
-    },
     "hyprland/workspaces": {
 	    "format": "{icon}",
         "format-icons": {
+            "default": "•",
             "1": "1",
             "2": "2",
             "3": "3",
             "4": "4",
             "5": "5",
-            "default": "•"
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "0",
+            "active": "󱓻"
         },
 	    "persistent-workspaces": {
 	        "*": [1, 2, 3, 4, 5, 6]
@@ -49,41 +44,41 @@
     // Center module
 
     "clock": {
-        "format": "{:%I:%M %p}",
-        "tooltip-format": "{:%a, %b %d}" 
+        "format": "{:L%A %I:%M %p}",
+        "format-alt": "{:%B %d %Y}",
+        "tooltip": false
     },
 
     // Right module
-
-    // "clock#date": {
-    //     "format": "{:%a, %b %d}",
-    //     "tooltip-format": "<big>{calendar}</big>"
-    // },
-    
-    // "group/system": {
-    //     "orientation": "horizontal",
-    //     "modules": [
-    //         "network",
-    //         "custom/swaync"
-    //     ]
-    // },
     
     "network": {
-        "interface": "wlp9s0",
+        "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ],
+        "format": "{icon}",
         "format-wifi": "{icon}",
         "format-ethernet": "󰈀 LAN",
         "format-disconnected": "󰖪",
+        // "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        // "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        // "tooltip-format-disconnected": "Disconnected",
+        // "interval": 3,
+        // "spacing": 1,
         "tooltip": false,
-        "on-click": "kitty -e nmtui",
-        "format-icons": [ "󰤯", "󰤟", "󰤢", "󰤥", "󰤨" ]
+        "on-click": "kitty -e nmtui"
     },
 
-    "custom/swaync": {
-        "format": "",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client --toggle-panel",
+    "pulseaudio": {
+        "format": "{icon}",
+        "on-click": "kitty -e wiremix",
+        "on-click-right": "pamixer -t",
+        // "tooltip-format": "Playing at {volume}%",
         "tooltip": false,
-        "interval": 0
+        "scroll-step": 5,
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "headset": "",
+            "default": ["", "", ""]
+        }
     },
     
     "custom/power": {
@@ -91,4 +86,4 @@
         "on-click": "wlogout",
         "tooltip": false
     }
-}]
+}
