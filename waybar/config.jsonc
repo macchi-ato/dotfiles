@@ -68,7 +68,7 @@
 
     "pulseaudio": {
         "format": "{icon}",
-        "on-click": "kitty -e wiremix",
+        "on-click": "kitty --class wiremix -e wiremix",
         "on-click-right": "pamixer -t",
         // "tooltip-format": "Playing at {volume}%",
         "tooltip": false,
@@ -83,7 +83,7 @@
     
     "custom/power": {
         "format": "⏻",
-        "on-click": "wlogout",
+        "on-click": "exec ~/.config/scripts/powermenu.sh",
         "tooltip": false
     }
 }
