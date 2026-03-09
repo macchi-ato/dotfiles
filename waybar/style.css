@@ -1,6 +1,7 @@
 @define-color bg #2C2A24;
 @define-color text #ffe6b7;
 
+
 * {
   background-color: @bg;
   color: @text;
@@ -8,42 +9,32 @@
   /* font-family: "Iosevka Nerd Font"; */
   font-family: "JetBrainsMono Nerd Font";
   font-size: 14px;
+  font-weight: 600;
 
   border: none;
   border-radius: 0;
 }
 
-/* Module containers */
-
-.modules-left {
-  margin: 0;
-}
-
-.modules-center {
-  margin: 0;
-}
-
-.modules-right {
-  margin-right: 12px;
-}
 
 /* Left module */
-
-#workspaces button {
-  font-weight: 600;
-}
 
 #workspaces button.empty {
   opacity: 0.5;
 }
 
-/* Center module  */
-
-#clock {
-  font-weight: 600;
+#workspaces button.active {
+  opacity: 1;
 }
 
+/* Center module  */
+
+
+
 /* Right module */
+
+.modules-right {
+  margin-right: 12px;
+}
 
 #network,
 #pulseaudio,

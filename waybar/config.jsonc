@@ -63,7 +63,7 @@
         // "interval": 3,
         // "spacing": 1,
         "tooltip": false,
-        "on-click": "kitty -e nmtui"
+        "on-click": "kitty --class impala -e impala"
     },
 
     "pulseaudio": {
