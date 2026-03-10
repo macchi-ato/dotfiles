@@ -1,8 +1,12 @@
-@import '/home/macchi/.config/wofi/gruvbox.css';
+@define-color bg #2C2A24;
+@define-color secondary-bg #3C3836;
+@define-color text #ffe6b7;
+@define-color primary #E6474C;
 
 * {
    font-family: 'Iosevka Nerd Font Mono';
    font-size: 15px;
+   font-weight: 600;
 }
 
 window {
@@ -13,38 +17,41 @@ window {
 
 #outer-box {
    margin: 0;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
 }
 
 #input {
-   margin: 30px;
+   margin: 10px;
    padding: 10px;
-   color: @txt;
    background-color: @bg;
-   border: 1px solid @highlight;
-   border-radius: 4px;
+   border: none;
+}
+
+#input:focus {
+   color: @text;
+   box-shadow: none;
 }
 
 #text {
    margin: 0;
    padding: 10px 0;
-   border: none;
-   color: @txt;
+   color: @text;
 }
 
 #entry {
-   margin: 0 30px;
+   margin: 0 10px;
    padding: 10px 0;
    border: none;
-   border-radius: 5px;
 }
 
 #entry:selected {
-   background-color: @bg;
-   border: 1px solid @highlight;
+   background-color: @secondary-bg;
+   border: none;
    border-radius: 4px;
+   outline: none;
 }
 
 image {
+   color: @primary;
    padding: 0 10px;
 }
