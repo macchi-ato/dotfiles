@@ -1,5 +1,6 @@
 @define-color bg #2C2A24;
-@define-color text #ffe6b7;
+@define-color text #FFE6B7;
+@define-color primary #E6474C;
 
 
 * {
@@ -24,6 +25,11 @@
 
 #workspaces button.active {
   opacity: 1;
+}
+
+#workspaces button.active label {
+  font-size: 16px;
+  color: @primary;
 }
 
 /* Center module  */
