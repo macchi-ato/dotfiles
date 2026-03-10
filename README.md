@@ -8,6 +8,5 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 
 - add wallpapers
 - add sddm config (after I find/create a theme I like)
-- re-design wofi app selector
-- create theme for wofi power menu script
+- add icons for wofi power menu
 - add scripts folder
