@@ -5,8 +5,9 @@
 
 * {
    font-family: 'Iosevka Nerd Font Mono';
-   font-size: 15px;
+   font-size: 16px;
    font-weight: 600;
+   color: @text;
 }
 
 window {
@@ -28,20 +29,19 @@ window {
 }
 
 #input:focus {
-   color: @text;
    box-shadow: none;
 }
 
 #text {
    margin: 0;
    padding: 10px 0;
-   color: @text;
 }
 
 #entry {
-   margin: 0 10px;
-   padding: 10px 0;
+   margin: 10px 10px 0;
+   padding: 10px;
    border: none;
+   opacity: 0.5;
 }
 
 #entry:selected {
@@ -49,9 +49,10 @@ window {
    border: none;
    border-radius: 4px;
    outline: none;
+   opacity: 1.0;
 }
 
 image {
    color: @primary;
-   padding: 0 10px;
+   padding-right: 10px;
 }

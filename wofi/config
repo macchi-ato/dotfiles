@@ -13,3 +13,4 @@ term=kitty
 insensitive=true
 print_command=true
 gtk_dark=true
+lines=4
