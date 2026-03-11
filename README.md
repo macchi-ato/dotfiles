@@ -8,6 +8,4 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 
 - add wallpapers
 - add sddm config (after I find/create a theme I like)
-- add icons for wofi power menu
-- add scripts folder
 - fix notification pop-ups
