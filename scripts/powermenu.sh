@@ -8,4 +8,4 @@ case "$choice" in
     *Logout) hyprctl dispatch exit ;;
     *Restart) systemctl reboot ;;
     *Shutdown) systemctl poweroff ;;
-esacz
+esac
