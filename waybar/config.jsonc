@@ -2,9 +2,6 @@
     "reload_style_on_change": true,
     "output": "DP-4",
     "spacing": 0,
-    // "margin-top": 8,
-    // "margin-left": 8,
-    // "margin-right": 8,
 
     "modules-left": [
         "hyprland/workspaces"
@@ -57,11 +54,6 @@
         "format-wifi": "{icon}",
         "format-ethernet": "󰈀 LAN",
         "format-disconnected": "󰖪",
-        // "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-        // "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-        // "tooltip-format-disconnected": "Disconnected",
-        // "interval": 3,
-        // "spacing": 1,
         "tooltip": false,
         "on-click": "kitty --class impala -e impala"
     },
@@ -70,7 +62,6 @@
         "format": "{icon}",
         "on-click": "kitty --class wiremix -e wiremix",
         "on-click-right": "pamixer -t",
-        // "tooltip-format": "Playing at {volume}%",
         "tooltip": false,
         "scroll-step": 5,
         "format-muted": "",
