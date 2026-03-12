@@ -9,6 +9,6 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 ## TO DO:
 
 - add wallpapers
-- add sddm config (after I find/create a theme I like)
 - fix notification pop-ups
 - re-design zsh prompt
+- docs and acknowledgments
