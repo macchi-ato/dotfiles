@@ -7,8 +7,7 @@
   background-color: @bg;
   color: @text;
   
-  /* font-family: "Iosevka Nerd Font"; */
-  font-family: "JetBrainsMono Nerd Font";
+  font-family: "Iosevka Nerd Font";
   font-size: 14px;
   font-weight: 600;
 
