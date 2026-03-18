@@ -38,7 +38,7 @@
 /* Right module */
 
 .modules-right {
-  margin-right: 12px;
+  margin-right: 14px;
 }
 
 #network,
@@ -49,13 +49,13 @@
 }
 
 #network {
-  padding-right: 6px;
+  padding-right: 7px;
 }
 
 #pulseaudio {
-  padding-right: 9px;
+  padding-right: 8px;
 }
 
 #custom-power {
-  padding-right: 4px;
+  padding-right: 5px;
 }
