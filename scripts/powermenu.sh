@@ -2,7 +2,7 @@
 
 options="Logout\nRestart\nShutdown"
 
-choice=$(echo -e "$options" | wofi --dmenu --hide-search --allow-images --lines 3)
+choice=$(echo -e "$options" | wofi --dmenu --hide-search --allow-images --lines 3 --width 400)
 
 case "$choice" in
     *Logout) hyprctl dispatch exit ;;
