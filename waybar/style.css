@@ -18,6 +18,10 @@
 
 /* Left module */
 
+#workspaces button label {
+  font-weight: 900;
+}
+
 #workspaces button.empty {
   opacity: 0.5;
 }
