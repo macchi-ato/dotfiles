@@ -10,5 +10,4 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 
 - add wallpapers
 - fix notification pop-ups
-- re-design zsh prompt
 - docs and acknowledgments
