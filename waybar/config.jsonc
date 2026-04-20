@@ -2,6 +2,7 @@
     "reload_style_on_change": true,
     "output": "DP-4",
     "spacing": 0,
+    "margin-top": 4,
 
     "modules-left": [
         "hyprland/workspaces"
@@ -11,6 +12,7 @@
     ],
     "modules-right": [
         "network",
+        "pulseaudio#microphone",
         "pulseaudio",
         "custom/power"
     ],
@@ -42,7 +44,7 @@
 
     "clock": {
         "format": "  {:%I:%M %p}",
-        "format-alt": "  {:%A - %e %B %Y}",
+        "format-alt": "  {:%A • %e %B %Y}",
         "tooltip": false
     },
 
@@ -60,16 +62,25 @@
 
     "pulseaudio": {
         "format": "{icon}  {volume}%",
-        "on-click": "kitty --class wiremix -e wiremix",
+        "on-click": "kitty --class wiremix -e wiremix --tab output",
         "on-click-right": "pamixer -t",
         "tooltip": false,
         "scroll-step": 5,
-        "format-muted": "",
+        "format-muted": " ",
         "format-icons": {
+            "default": "",
             "headphone": "",
-            "headset": "",
-            "default": ["", "", ""]
+            "headset": ""
         }
+    },
+
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " ",
+        "on-click": "kitty --class wiremix -e wiremix --tab input",
+        "on-click-right": "pamixer --default-source -t",
+        "scroll-step": 5
     },
     
     "custom/power": {
