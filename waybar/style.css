@@ -4,7 +4,7 @@
 
 
 * {
-  background-color: @bg;
+  background-color: transparent;
   color: @text;
   
   font-family: "Iosevka Nerd Font";
@@ -20,6 +20,7 @@
 
 #workspaces button label {
   font-weight: 900;
+  border: none;
 }
 
 #workspaces button.empty {
