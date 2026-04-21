@@ -12,7 +12,7 @@ setopt globdots # Include dotfiles
 
 # Prompt line
 NEWLINE=$'\n'
-PROMPT="${NEWLINE}%K{#16161C}%F{#FFE6B7}%D{%_I:%M%P}%K{#16161C}%F{#FAB28E} %n%K{#16161C}%F{#E95379} %~ %f%k%F{#E6474C}❯"
+PROMPT="${NEWLINE}%K{#16161C}%F{#FFE6B7}%D{%_I:%M%P}%K{#16161C}%F{#FAB28E} %n%K{#16161C}%F{#E95379} %~ %f%k%F{#F43E5C}❯"
 
 # Syntax highlighting plugin
 source ~/.zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
