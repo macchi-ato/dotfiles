@@ -1,20 +1,18 @@
 @define-color bg #16161C;
 @define-color text #FFE6B7;
-@define-color primary #E6474C;
-
+@define-color primary #F43E5C;
 
 * {
-  background-color: transparent;
-  color: @text;
-  
   font-family: "Iosevka Nerd Font";
   font-size: 14px;
   font-weight: 600;
 
+  background-color: transparent;
+  color: @text;
+
   border: none;
   border-radius: 0;
 }
-
 
 /* Left module */
 
@@ -59,4 +57,5 @@
 
 #custom-power {
   padding-right: 6px;
+  color: @primary;
 }

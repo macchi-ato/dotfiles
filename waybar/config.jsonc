@@ -2,7 +2,7 @@
     "reload_style_on_change": true,
     "output": "DP-4",
     "spacing": 0,
-    "margin-top": 4,
+    "margin": 6,
 
     "modules-left": [
         "hyprland/workspaces"
@@ -80,6 +80,7 @@
         "format-source-muted": " ",
         "on-click": "kitty --class wiremix -e wiremix --tab input",
         "on-click-right": "pamixer --default-source -t",
+        "tooltip": false,
         "scroll-step": 5
     },
     
