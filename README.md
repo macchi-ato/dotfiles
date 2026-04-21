@@ -2,7 +2,7 @@
 
 A minimal Arch Linux setup built around Hyprland and Waybar. TUIs wherever possible and avoids redundant tooling.
 
-<img width="2560" height="1440" alt="20260418_102759" src="https://github.com/user-attachments/assets/bfa33eec-b5b7-4387-9a2b-1c44380768c0" />
+<img width="2560" height="1440" alt="20260421_155253" src="https://github.com/user-attachments/assets/7f2b43d5-9f80-450c-907b-705a7abfd5bb" />
 
 ---
 
