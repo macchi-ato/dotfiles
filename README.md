@@ -11,3 +11,4 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 - add wallpapers
 - fix notification pop-ups
 - docs and acknowledgments
+- customize mako and add config
