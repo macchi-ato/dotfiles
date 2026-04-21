@@ -1,6 +1,6 @@
 # Arch + Hyprland 
 
-These configs are based on multiple sources but mainly from [DHH's Omarchy](https://github.com/basecamp/omarchy) and [DerAnsari](https://github.com/DerAnsari/hyprland-dots). They've been **HEAVILY** modified/reduced to suit my personal needs, which are very minimal.
+A minimal Arch Linux setup built around Hyprland and Waybar. The goal is a clean, minimal desktop that uses TUIs wherever possible and avoids redundant tooling, like reusing Wofi as a general purpose menu for things like the power menu.
 
 <img width="2560" height="1440" alt="20260418_102759" src="https://github.com/user-attachments/assets/bfa33eec-b5b7-4387-9a2b-1c44380768c0" />
 
@@ -10,5 +10,5 @@ These configs are based on multiple sources but mainly from [DHH's Omarchy](http
 
 - add wallpapers
 - fix notification pop-ups
-- docs and acknowledgments
+- docs
 - customize mako and add config
