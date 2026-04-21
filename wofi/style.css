@@ -1,7 +1,7 @@
 @define-color bg #16161C;
 @define-color secondary-bg #232530;
-@define-color text #ffe6b7;
-@define-color primary #E6474C;
+@define-color text #FFE6B7;
+@define-color primary #F43E5C;
 
 * {
    font-family: 'Iosevka Nerd Font Mono';
