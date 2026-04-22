@@ -10,6 +10,6 @@ I like to use TUIs where possible and avoid redundant tooling.
 ## TO DO:
 
 - add wallpapers
-- fix notification pop-ups
 - docs
 - customize mako and add config
+- update sddm
