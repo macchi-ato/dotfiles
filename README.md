@@ -13,3 +13,4 @@ I like to use TUIs where possible and avoid redundant tooling.
 - docs
 - customize mako and add config
 - update sddm
+- filter wofi menu items
