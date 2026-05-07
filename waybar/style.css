@@ -7,7 +7,7 @@
   font-size: 14px;
   font-weight: 600;
 
-  background-color: transparent;
+  background-color: transparent;  /* Should probably add @bg depending on wallpaper */
   color: @text;
 
   border: none;
