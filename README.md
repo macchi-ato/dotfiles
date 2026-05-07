@@ -12,5 +12,5 @@ I like to use TUIs where possible and avoid redundant tooling.
 - add wallpapers
 - docs
 - customize mako and add config
-- update sddm
+- simpler sddm theme
 - filter wofi menu items
