@@ -14,3 +14,4 @@ I like to use TUIs where possible and avoid redundant tooling.
 - customize mako and add config
 - simpler sddm theme
 - filter wofi menu items
+- hyprland: migrate to lua configs
